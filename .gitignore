@@ -1,0 +1,16 @@
+# Raw datasets (only needed locally to build the model)
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+
+# Python / Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
